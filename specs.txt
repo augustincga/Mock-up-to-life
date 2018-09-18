@@ -1,0 +1,18 @@
+- Atentie mare la detaliile din PSD
+- Continutul sa fie intr-un container cu dimensiunea din design. Culorile de fundal aplicate pe sectiuni trebuie sa fie full width.
+- Bara neagra cu navigatia sa fie sticky la scroll
+- Iconita de home din navigatie are culoare de active. A se aplica aceeasi culoare si la hover pe butoane.
+- Banner-ul trebuie sa fie full width
+- Sort by select nu trebuie sa aiba nici o functionalitate
+- Project box la hover: imaginea are un efect de zoom
+- Got Questions: cand un acordeon se deschide, cel deschis anterior se inchide.
+- Preferabil fara framework-uri gen bootstrap dar nu este obligatoriu.
+- Responsive:
+a. Header contine doar logo si buton de mobile
+b. Navigatia si link-urile din header se vor deschide la click pe buton pe un background negru.
+
+Va  rog sa confirmati de primire acest mail si de asemenea sa estimati cand puteti trimite rezultatul testului.
+
+Daca sunt intrebari legate de test va rog sa dati un reply la acest mail.
+
+O zi buna,
