@@ -38,6 +38,10 @@ let bindEventHandlers = function () {
 			$(this).append('<i class="fas fa-angle-up"></i>');
 		}
 	})
+
+	$('.mobile-list__menu-btn').on('click', function(){
+		$('.mobile__list').toggle('fast');
+	})
 }
 
 $(document).ready(function () {

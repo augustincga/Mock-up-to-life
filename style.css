@@ -129,6 +129,10 @@ table {
 	height: 60px;
 }
 
+.navigation__mobile {
+	display: none;
+}
+
 .js-navigation-fixed {
 	position: fixed;
 	top: 0;
@@ -535,20 +539,44 @@ table {
 	.container {
 		width: 100%;
 	}
-	.navigation__list ul, .header__menu {
+	.navigation, .header__menu {
 		display: none;
 	}
 
-	.navigation__mobile-list {
+	.navigation__mobile {
 		display: block;
 	}
 
-	.navigation__mobile-list button {
+	.mobile__list {
+		display: none;
+		width: 200px;
+		background-color: #111212;
+		position: absolute;
+		top: 65px;
+		right: 70px;
+		z-index: 9999;
+	}
+
+	.navigation__mobile button {
 		margin-left: 70px;
 		margin-top: 15px;
 		background-color: transparent;
-		color: white;
+		color: black;
 		border: 0px;
 		font-size: 22px;
+	}
+
+	.mobile__list li {
+		padding-bottom: 10px;
+		margin-left: 30px;
+	}
+
+	.mobile__list li:first-child {
+		padding-top: 10px;
+	}
+
+	.mobile__list a {
+		color: white;
+		text-decoration: none;
 	}
 }
